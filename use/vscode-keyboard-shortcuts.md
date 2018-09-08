@@ -1,4 +1,4 @@
-# vscode 的快捷键
+# vscode 的快捷键 速查表
 
 原版 
 [keyboard-shortcuts-windows.pdf](../resources/keyboard-shortcuts-windows.pdf)
