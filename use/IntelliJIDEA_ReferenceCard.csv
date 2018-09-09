@@ -1,0 +1,347 @@
+﻿Remember these Shortcuts
+Smart code completion , Ctrl + Shift + Space
+Search everywhere,  Double Shift
+Show intention actions and quick-fixes,  Alt + Enter
+Generate code , Alt + Ins
+Parameter info , Ctrl + P
+Extend selection , Ctrl + W
+Shrink selection , Ctrl + Shift + W
+Recent files popup,  Ctrl + E
+Rename , Shift + F6
+
+
+General
+Open corresponding tool window  ,  Alt + #[0-9]
+Save all  ,  Ctrl + S
+Synchronize  ,  Ctrl + Alt + Y
+Toggle maximizing editor  , Ctrl + Shift + F12
+Inspect current file with current profile  , Alt + Shift + I
+Quick switch current scheme  , Ctrl + BackQuote (`)
+Open Settings dialog ,  Ctrl + Alt + S
+Open Project Structure dialog ,  Ctrl + Alt + Shift + S
+Find Action ,  Ctrl + Shift + A
+
+
+Debugging
+Step over / into  ,  F8 / F7
+Smart step into/Step out  , Shift + F7 / Shift + F8
+Run to cursor  ,  Alt + F9
+Evaluate expression ,  Alt + F8
+Resume program  , F9
+Toggle breakpoint  , Ctrl + F8
+View breakpoints  , Ctrl + Shift + F8
+
+
+
+Search / Replace
+Search everywhere  , Double Shift
+Find  , Ctrl + F
+Find next /previous ,  F3 / Shift + F3
+Replace ,  Ctrl + R
+Find in path  , Ctrl + Shift + F
+Replace in path  , Ctrl + Shift + R
+Select next occurrence  , Alt + J
+Select all occurrences  , Ctrl + Alt + Shift + J
+Unselect occurrence  , Alt + Shift + J
+
+
+Editing
+Basic code completion   , Ctrl + Space
+Smart code completion   , Ctrl + Shift + Space
+Complete statement   , Ctrl + Shift + Enter
+Parameter info (within method call arguments)  ,  Ctrl + P
+Quick documentation lookup   , Ctrl + Q
+External Doc   , Shift + F1
+Brief Info  , Ctrl +mouse
+Show descriptions of error at caret  ,  Ctrl + F1
+Generate code...   , Alt + Insert
+Override methods   , Ctrl + O
+Implement methods   , Ctrl + I
+Surroundwith…   ,  Ctrl + Alt + T
+Comment /uncomment with line comment  ,  Ctrl + /
+Comment /uncomment with block comment   , Ctrl + Shift + /
+Extend selection   , Ctrl + W
+Shrink selection   , Ctrl + Shift + W
+Context info   , Alt + Q
+Show intention actions and quick-fixes   , Alt + Enter
+Reformat code   , Ctrl + Alt + L
+Optimize imports   , Ctrl + Alt + O
+Auto-indent line(s)   , Ctrl + Alt + I
+Indent /unindent selected lines   , Tab / Shift + Tab
+Cut current line to clipboard  , Ctrl + X , Shift +Delete
+Copy current line to clipboard  , Ctrl + C , Ctrl + Insert
+Paste from clipboard  , Ctrl + V , Shift + Insert
+Paste from recent buffers...  , Ctrl + Shift + V
+Duplicate current line , Ctrl + D
+Delete line at caret , Ctrl + Y
+Smart line join , Ctrl + Shift + J
+Smart line split , Ctrl + Enter
+Start new line ,  Shift + Enter
+Toggle case for word at caret or selected block  , Ctrl + Shift + U
+Select till code block end / start  , Ctrl + Shift + ] / [
+Delete to word end  , Ctrl + Delete
+Delete to word start  , Ctrl + Backspace
+Expand/collapse code block  , Ctrl + NumPad+ / -
+Expand all , Ctrl+ Shift+NumPad+
+Collapse all , Ctrl+Shift+NumPad-
+Close active editor tab   ,   Ctrl + F4
+
+
+Refactoring
+Copy   ,  F5
+Move   ,  F6
+Safe Delete   ,  Alt + Delete
+Rename   ,  Shift + F6
+Refactor this   ,  Ctrl + Alt + Shift + T
+Change Signature   ,  Ctrl + F6
+Inline  ,   Ctrl + Alt + N
+Extract Method   ,  Ctrl + Alt + M
+Extract Variable   ,  Ctrl + Alt + V
+Extract Field   ,  Ctrl + Alt + F
+Extract Constant  ,   Ctrl + Alt + C
+Extract Parameter   ,  Ctrl + Alt + P
+
+
+
+
+Navigation
+Go to class   ,  Ctrl + N
+Go to file   ,  Ctrl + Shift + N
+Go to symbol   ,  Ctrl + Alt + Shift + N
+Go to next /previous editor tab   ,  Alt + Right/Left
+Go back to previous tool window   ,  F12
+Go to editor (from tool window)   ,  Esc
+Hide active or last active window  ,   Shift + Esc
+Go to line  ,  Ctrl + G
+Recent files popup  ,  Ctrl + E
+Navigate back / forward  ,  Ctrl+Alt + Left/Right
+Navigate to last edit location  ,  Ctrl+Shift+Backspace
+Select current file or symbol in any view   ,  Alt + F1
+Go to declaration   ,  Ctrl + B , Ctrl + Click
+Go to implementation(s) ,  Ctrl + Alt + B
+Open quick definition lookup  , Ctrl + Shift + I
+Go to type declaration  , Ctrl + Shift + B
+Go to super-method/ super-class  , Ctrl + U
+Go to previous /next method  , Alt + Up/Down
+Move to code block end/ start  , Ctrl + ]/[
+File structure popup  , Ctrl + F12
+Type hierarchy  , Ctrl + H
+Method hierarchy ,  Ctrl + Shift + H
+Call hierarchy  , Ctrl + Alt + H
+Next /previous highlighted error  , F2 / Shift + F2
+Edit source/View source  , F4 / Ctrl + Enter
+Show navigation bar ,  Alt + Home
+Toggle bookmark ,  F11
+Toggle bookmark with mnemonic  , Ctrl + F11
+Go to numbered bookmark ,  Ctrl + #[0-9]
+Show bookmarks  , Shift + F11
+
+
+
+Compile and Run
+Make project  , Ctrl + F9
+Compile selected file, package or module ,  Ctrl + Shift + F9
+Select configuration and run/debug ,  Alt + Shift + F10/F9
+Run/Debug ,  Shift + F10 / F9
+Run context configuration from editor ,  Ctrl + Shift + F10
+
+
+Usage Search
+Find usages /Find usages in file ,  Alt + F7 / Ctrl + F7
+Highlight usages in file  , Ctrl + Shift + F7
+Show usages  , Ctrl + Alt + F7
+
+
+VCS / Local History
+Commit project to VCS ,  Ctrl + K
+Update project from VCS  , Ctrl + T
+Push commits  , Ctrl + Shift + K
+‘VCS’ quick popup ,  Alt + BackQuote (`)
+
+
+Live Templates
+Surround with Live Template  , Ctrl + Alt + J
+Insert Live Template ,  Ctrl + J
+
+
+
+
+
+
+
+
+记住这些快捷方式
+智能代码完成，Ctrl + Shift + Space
+到处搜索，双班
+显示意图操作和快速修复，Alt + Enter
+生成代码，Alt + Ins
+参数信息，Ctrl + P.
+扩展选择，Ctrl + W.
+收缩选择，Ctrl + Shift + W.
+最近的文件弹出，Ctrl + E.
+重命名，Shift + F6
+
+
+一般
+打开相应的工具窗口，Alt +＃[0-9]
+全部保存，按Ctrl + S.
+同步，Ctrl + Alt + Y.
+切换最大化编辑器，Ctrl + Shift + F12
+使用当前配置文件Alt + Shift + I检查当前文件
+快速切换当前方案，Ctrl + BackQuote（`）
+“打开设置”对话框，Ctrl + Alt + S.
+打开“项目结构”对话框，按Ctrl + Alt + Shift + S.
+查找操作，按Ctrl + Shift + A.
+
+
+调试
+步入/进入，F8 / F7
+智能步入/退出，Shift + F7 / Shift + F8
+运行到光标，Alt + F9
+评估表达式，Alt + F8
+简历程序，F9
+切换断点，Ctrl + F8
+查看断点，Ctrl + Shift + F8
+
+
+
+搜索/替换
+到处搜索，双班
+查找，按Ctrl + F.
+查找下一个/上一个，F3 / Shift + F3
+替换，Ctrl + R.
+在路径中查找，按Ctrl + Shift + F.
+在路径中替换，Ctrl + Shift + R.
+选择下一个匹配项，Alt + J.
+选择所有匹配项，Ctrl + Alt + Shift + J.
+取消选择出现，Alt + Shift + J.
+
+
+编辑
+基本代码完成，Ctrl + Space
+智能代码完成，Ctrl + Shift + Space
+完整语句，Ctrl + Shift + Enter
+参数信息（在方法调用参数内），Ctrl + P.
+快速文档查找，Ctrl + Q.
+外部文档，Shift + F1
+简要信息，Ctrl +鼠标
+在插入符号处显示错误描述，Ctrl + F1
+生成代码...，Alt + Insert
+覆盖方法，Ctrl + O.
+实现方法，Ctrl + I.
+环绕...，Ctrl + Alt + T.
+注释/取消注释行注释，Ctrl + /
+注释/取消注释块注释，Ctrl + Shift + /
+扩展选择，Ctrl + W.
+收缩选择，Ctrl + Shift + W.
+上下文信息，Alt + Q.
+显示意图操作和快速修复，Alt + Enter
+重新格式化代码，Ctrl + Alt + L.
+优化导入，Ctrl + Alt + O.
+自动缩进行，Ctrl + Alt + I.
+缩进/取消选中的行，Tab / Shift + Tab
+将当前行剪切到剪贴板，Ctrl + X，Shift + Delete
+将当前行复制到剪贴板，Ctrl + C，Ctrl + Insert
+从剪贴板粘贴，Ctrl + V，Shift + Insert
+从最近的缓冲区粘贴...，Ctrl + Shift + V.
+复制当前行，Ctrl + D.
+删除插入符号行，Ctrl + Y.
+智能线连接，Ctrl + Shift + J.
+智能线分割，Ctrl + Enter
+开始换行，Shift + Enter
+在插入符号或选定的块上切换单词的大小写，Ctrl + Shift + U.
+选择直到代码块结束/开始，按Ctrl + Shift +] / [
+删除到单词结束，按Ctrl + Delete
+删除到单词开始，Ctrl + Backspace
+展开/折叠代码块，Ctrl + NumPad + / -
+全部展开，按Ctrl + Shift + NumPad +
+全部折叠，Ctrl + Shift + NumPad-
+关闭活动编辑器选项卡，Ctrl + F4
+
+
+重构
+复制，F5
+移动，F6
+安全删除，Alt +删除
+重命名，Shift + F6
+重构这一点，Ctrl + Alt + Shift + T.
+更改签名，按Ctrl + F6
+内联，Ctrl + Alt + N.
+提取方法，Ctrl + Alt + M.
+提取变量，Ctrl + Alt + V.
+提取字段，按Ctrl + Alt + F.
+提取常量，Ctrl + Alt + C.
+提取参数，Ctrl + Alt + P.
+
+
+
+
+导航
+转到课堂，按Ctrl + N.
+转到文件，按Ctrl + Shift + N.
+转到符号，按Ctrl + Alt + Shift + N.
+转到下一个/上一个编辑器选项卡，Alt +向右/向左
+返回上一个工具窗口F12
+转到编辑器（从工具窗口），Esc
+隐藏活动窗口或上一个活动窗口，Shift + Esc
+转到行，Ctrl + G.
+最近的文件弹出，Ctrl + E.
+向后/向前导航，按Ctrl + Alt +向左/向右
+导航到上次编辑位置，按Ctrl + Shift + Backspace
+在任何视图中选择当前文件或符号，Alt + F1
+转到声明，Ctrl + B，Ctrl +单击
+转到实现，Ctrl + Alt + B.
+打开快速定义查找，Ctrl + Shift + I.
+转到类型声明，Ctrl + Shift + B.
+转到super-method / super-class，Ctrl + U.
+转到上一个/下一个方法，Alt +向上/向下
+移动到代码块结束/开始，Ctrl +] / [
+文件结构弹出，Ctrl + F12
+键入层次结构，Ctrl + H.
+方法层次结构，Ctrl + Shift + H.
+调用层次结构，Ctrl + Alt + H.
+下一个/上一个突出显示的错误，F2 / Shift + F2
+编辑源/查看源，F4 / Ctrl + Enter
+显示导航栏，Alt + Home
+切换书签，F11
+使用助记符切换书签，Ctrl + F11
+转到编号书签，Ctrl +＃[0-9]
+显示书签，Shift + F11
+
+
+
+编译并运行
+制作项目，按Ctrl + F9
+编译选定的文件，包或模块，Ctrl + Shift + F9
+选择配置并运行/调试，Alt + Shift + F10 / F9
+运行/调试，Shift + F10 / F9
+从编辑器运行上下文配置，Ctrl + Shift + F10
+
+
+用法搜索
+查找用法/查找文件中的用法，Alt + F7 / Ctrl + F7
+突出显示文件中的用法，Ctrl + Shift + F7
+显示用法，Ctrl + Alt + F7
+
+
+VCS /本地历史
+将项目提交到VCS，Ctrl + K.
+从VCS更新项目，Ctrl + T.
+按提交，按Ctrl + Shift + K.
+'VCS'快速弹出，Alt + BackQuote（`）
+
+
+实时模板
+使用实时模板环绕，按Ctrl + Alt + J.
+插入实时模板，Ctrl + J
+
+
+
+
+
+
+
+
+
+
+
