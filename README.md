@@ -12,13 +12,11 @@
 
 #  
 
-[VS Code 键盘快捷方式](use/keyboard-shortcuts-vscode)
-[md](use/keyboard-shortcuts-vscode.md)
+[VS Code 键盘快捷方式](use/keyboard-shortcuts-vscode.md)
+ 
 
-
-[eclipse 键盘快捷方式](use/keyboard-shortcuts-eclipse)
-[md](use/keyboard-shortcuts-eclipse.md)
-
+[eclipse 键盘快捷方式](use/keyboard-shortcuts-eclipse.md)
+ 
  
 [idea KEYMAP](use/IntelliJIDEA_ReferenceCard.xlsx) 
  
