@@ -5,7 +5,7 @@
 
 -   保存当前网页 
 [文本下载](javascript:void((function(){window.open("data:application/octet-stream,"+encodeURIComponent(document.documentElement.outerHTML));})())) 
-[文件显示](javascript:void((function(){window.open("data:text/plain;charset=utf-8"+encodeURIComponent(document.documentElement.outerHTML));})())) 
+[文件显示](javascript:void((function(){window.open("data:text/plain;charset=utf-8,"+encodeURIComponent(document.documentElement.outerHTML));})())) 
 
 将当前网页下载为文件 另存为是保持原始文件 这个脚本获取的是当前生成变更的实际 html
 利用[Data URLs - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs)
@@ -15,7 +15,7 @@
 
 -   获取网页超链接 
 [文本下载](javascript:void((function(){window.open("data:application/octet-stream,"+encodeURIComponent(Array.from(document.querySelectorAll('a')).map(e=>e.href).join('\n')));})()))
-[文件显示](javascript:void((function(){window.open("data:text/plain;charset=utf-8"+encodeURIComponent(Array.from(document.querySelectorAll('a')).map(e=>e.href).join('\n')));})()))
+[文件显示](javascript:void((function(){window.open("data:text/plain;charset=utf-8,"+encodeURIComponent(Array.from(document.querySelectorAll('a')).map(e=>e.href).join('\n')));})()))
 
 保持当前网页上的超链接
 
