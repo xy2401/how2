@@ -38,3 +38,10 @@
 [Javascript/DOM: How to remove all events of a DOM object? - Stack Overflow](https://stackoverflow.com/questions/4386300/javascript-dom-how-to-remove-all-events-of-a-dom-object)
 
 
+
+
+- 页面编辑
+使页面可以编辑
+[页面编辑](javascript:void((function(){document.body.contentEditable=true;})()))
+
+
