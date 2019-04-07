@@ -1,26 +1,26 @@
 
- [网页脚本书签](use/href-js.md)
 
-# how2
+[网页脚本书签](use/js-link.md)
 
-
-[how2 @ github page](https://xy2401.github.io/how2/)
-
-
-
+ 
 [如何阅读文档](do/read-guide.md)
 
- 
+
+[fitness-boxing 动作说明](game/fitness-boxing/action.md)
 
 
-#  
 
-[VS Code 键盘快捷方式](use/keyboard-shortcuts-vscode.md)
- 
+# man 
 
-[eclipse 键盘快捷方式](use/keyboard-shortcuts-eclipse.md)
- 
- 
-[idea KEYMAP](use/IntelliJIDEA_ReferenceCard.xlsx) 
- 
+[chrome](man/chrome.md)
+
+
+
+
+# use 
+
+[正则表达式](use\RegExp.md)
+
+
+
 
