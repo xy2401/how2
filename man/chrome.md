@@ -11,3 +11,7 @@ chrome 使用
 
     "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --user-agent="Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36"
 
+- 设置 ua为 Google 机器人
+
+    chrome.exe --user-agent="Mozilla/5.0 (compatible; Googlebot/2.1)" 
+
