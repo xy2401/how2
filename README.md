@@ -1,5 +1,7 @@
 
 
+`更新日志` [CHANGELOG](CHANGELOG.md)
+
 [网页脚本书签](use/js-link.md)
 
  
