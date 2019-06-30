@@ -17,7 +17,7 @@
 [chrome](man/chrome.md)
 
 
-
+[git](man/git.md)
 
 # use 
 
