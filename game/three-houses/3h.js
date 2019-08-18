@@ -89,10 +89,10 @@ img = ""
 links = [];
 infos.forEach((info,index) => {
     //遍历所有属性
-    result += `# ${names[index]}    \n`;//姓名
+    result += `# ${names[index]}\n`;//姓名
 
     img = `![${namesEN[index]}](character-images/${namesEN[index]}.png "${names[index]} ${namesEN[index]}")`;//图片
-    result += img+'    \n';
+    result += img+'    \n\n';
     links.push(`[${img}](#${names[index]})`);
 	
     for(let i=0;i<props.length;i++){
@@ -100,7 +100,7 @@ infos.forEach((info,index) => {
         if(p.length>0){
 		     result += `## ${props[i]}    \n`
             result += p.join(' , ')
-            result += "    \n";
+            result += "    \n\n";
         }
     }
 
