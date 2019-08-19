@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>搜索帮助</title>
+    <script src="pinyin.js"></script>
+    <script>
+
+        let innerHTML;//原始 HTML 
+        let innerHTMLPY;//拼音版本HTML
+        function search() {
+            if (!innerHTML) {
+                innerHTML = iframe.contentWindow.document.body.innerHTML;
+                console.log('记录原始html');
+
+                innerHTMLPY = '';
+                for (var i = 0; i < innerHTML.length; i++) {
+                    innerHTMLPY += Pinyin.convertToPinyin(innerHTML.charAt(i))[0];
+                }
+            }
+            let keys = key.value.split(" ").filter(k => k && k.length > 0);
+
+            //获得拷贝
+            let innerHTML2 = innerHTML;
+            let innerHTMLPY2 = innerHTMLPY;
+
+            let flag = false;//是否替换过
+
+            //搜索每一个关键字
+            keys.forEach(kk => {
+
+                let k = '';//搜搜关键字首字母
+                for (var i = 0; i < kk.length; i++) {
+                    k += Pinyin.convertToPinyin(kk.charAt(i))[0];
+                }
+
+                let innerHTML3 = '';
+                let innerHTMLPY3 = '';
+
+                //使用关键字切割
+                let frags = innerHTMLPY2.split(k.toUpperCase());
+                let kAt = [];
+                let current = 0;//当前位子
+                //搜索每一个切点位子
+                console.log("frags:" + frags);
+                frags.forEach((frag, i) => {
+                    current += frag.length;//截篇起始位子 
+                    kAt.push(current);
+                    current += k.length;//终止位子
+                });
+
+                console.log("k:" + k);
+                console.log("kAt:" + kAt);
+                //有切割过
+                if (kAt.length > 1) {
+
+                    kAt.pop();//最后一个是多余舍弃
+
+                    current = 0;
+                    //遍历每一个切点位子
+                    kAt.forEach(at => {
+                        innerHTML3 += `${innerHTML2.substring(current, at)}<mark>${innerHTML2.substring(at, at + k.length)}</mark>`;
+                        innerHTMLPY3 += `${innerHTMLPY2.substring(current, at)}<mark>${innerHTMLPY2.substring(at, at + k.length)}</mark>`;
+                        current = at + k.length;
+                    })
+                    //拼接最后一部分
+                    innerHTML2 = innerHTML3 + innerHTML2.substring(current);
+                    innerHTMLPY2 = innerHTMLPY3 + innerHTML2.substring(current);
+                }
+            });
+            iframe.contentWindow.document.body.innerHTML = innerHTML2;
+
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <input style="width: 70%" id='key'>
+    <button onclick="search()">搜索</button> 输入关键字 空格隔开 中文或者 拼音首字母缩写均可 会高亮搜索部分
+    <br>
+    <iframe id='iframe' src='fire-emblem' style="width:100%;height: 95vh;"></iframe>
+</body>
+
+</html>
