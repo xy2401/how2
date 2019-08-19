@@ -8,11 +8,11 @@ props = [];
 //喜欢的东西 讨厌的东西 喜好礼物
 //喜好茶叶
 //茶话会最佳选项 信件答案
-props = props.concat(['擅长职业','不擅长职业','才能绽放']);
-props = props.concat(['挖角条件','失物','兴趣']);
-props = props.concat(['喜欢的东西','讨厌的东西','喜好礼物']);
+props = props.concat(['擅长职业', '不擅长职业', '才能绽放']);
+props = props.concat(['挖角条件', '失物', '兴趣']);
+props = props.concat(['喜欢的东西', '讨厌的东西', '喜好礼物']);
 props = props.concat(['喜好茶叶']);
-props = props.concat(['茶话会最佳选项','信件答案']);
+props = props.concat(['茶话会最佳选项', '信件答案']);
 
 document.querySelectorAll('.table2').forEach(t => {
     console.log(1);
@@ -72,36 +72,70 @@ document.querySelectorAll('.table2').forEach(t => {
 
 
 namesEN = [];
-namesEN = namesEN.concat(['Edelgard','Hubert','Ferdinand','Linhardt','Caspar','Bernadetta','Dorothea','Petra']);
-namesEN = namesEN.concat(['Dimitri','Dedue','Felix','Ashe','Sylvain','Mercedes','Annette','Ingrid']);
-namesEN = namesEN.concat(['Claude','Lorenz','Raphael','Ignatz','Lysithea','Marianne','Hilda','Leonie']);
-namesEN = namesEN.concat(['Rhea','Seteth','Flayn','Hanneman','Manuela','Cyril','Alois','Shamir','Gilbert','Catherine','Jeralt']);
-namesEN = namesEN.concat(['Byleth','Jeritza']);//我和蒙面老师
+namesEN = namesEN.concat(['Edelgard', 'Hubert', 'Ferdinand', 'Linhardt', 'Caspar', 'Bernadetta', 'Dorothea', 'Petra']);
+namesEN = namesEN.concat(['Dimitri', 'Dedue', 'Felix', 'Ashe', 'Sylvain', 'Mercedes', 'Annette', 'Ingrid']);
+namesEN = namesEN.concat(['Claude', 'Lorenz', 'Raphael', 'Ignatz', 'Lysithea', 'Marianne', 'Hilda', 'Leonie']);
+namesEN = namesEN.concat(['Rhea', 'Seteth', 'Flayn', 'Hanneman', 'Manuela', 'Cyril', 'Alois', 'Shamir', 'Gilbert', 'Catherine', 'Jeralt']);
+namesEN = namesEN.concat(['Byleth', 'Jeritza']);//我和蒙面老师
 
 
 
-names=[];
-document.querySelectorAll('strong').forEach(s=>names.push(s.innerText));
+names = [];
+document.querySelectorAll('strong').forEach(s => names.push(s.innerText));
 
 
 result = "";
 img = ""
 links = [];
-infos.forEach((info,index) => {
+infos.forEach((info, index) => {
     //遍历所有属性
     result += `# ${names[index]}\n`;//姓名
 
     img = `![${namesEN[index]}](character-images/${namesEN[index]}.png "${names[index]} ${namesEN[index]}")`;//图片
-    result += img+'    \n\n';
+    result += img + '    \n\n';
     links.push(`[${img}](#${names[index]})`);
-	
-    for(let i=0;i<props.length;i++){
-        let p = info[i].filter(p=>p&&p.length>0);
-        if(p.length>0){
-		     result += `## ${props[i]}    \n`
+
+
+    let temp = '';
+    //擅长
+    let p = info[0].filter(p => p && p.length > 0);
+    if (p.length > 0) {
+        temp += '**⯭** : ' + p.join(' , ') + "    \n";
+    }
+    //不擅长
+    p = info[1].filter(p => p && p.length > 0);
+    if (p.length > 0) {
+        temp += '**⯯** : ' + p.join(' , ') + "    \n";
+    }
+    //才能
+    p = info[2].filter(p => p && p.length > 0);
+    if (p.length > 0) {
+        temp += '**🟍** : ' + p.join(' , ') + "    \n";
+    }
+    if (temp.length > 0) {
+        result += "## 职业    \n";
+        result += temp;
+        result += "    \n\n";
+    }
+
+
+    for (let i = 0; i < props.length; i++) {
+        if (i < 3 || i > 10) {
+            continue;
+        }
+        let p = info[i].filter(p => p && p.length > 0);
+        if (p.length > 0) {
+            result += `## ${props[i]}    \n`
             result += p.join(' , ')
             result += "    \n\n";
         }
+    }
+
+    //信件答案
+    p = info[11].filter(p => p && p.length > 0);
+    if (p.length > 0) {
+        result += "## 信件答案    \n";
+        result += p.join('    \n');
     }
 
     result += "\n\n\n\n";
