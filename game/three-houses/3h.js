@@ -110,7 +110,7 @@ infos.forEach((info, index) => {
     //才能
     p = info[2].filter(p => p && p.length > 0);
     if (p.length > 0) {
-        temp += '**🟍** : ' + p.join(' , ') + "    \n";
+        temp += '**★** : ' + p.join(' , ') + "    \n";
     }
     if (temp.length > 0) {
         result += "## 职业    \n";
