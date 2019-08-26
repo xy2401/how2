@@ -1,5 +1,10 @@
- 
-黑鹫    
+主角/不可思議的少女
+
+[![Byleth Male](character-images/Byleth1.png "主角 Byleth Male")](#主角)
+[![Byleth Female](character-images/Byleth2.png "主角 Byleth Female")](#主角)
+[![Sothis](character-images/Sothis.png "不可思議的少女 Sothis ")](#不可思議的少女)
+
+黑鷲學級    
 艾黛尔贾特 修伯特    
 菲尔迪南特 林哈尔特 卡斯帕尔 贝尔娜提塔 多洛缇雅 佩托拉    
 
@@ -16,7 +21,7 @@
 [![Petra](character-images/Petra.png "佩托拉 Petra")](#佩托拉)
 
 
-青狮    
+青獅子學級        
 帝弥托利 杜笃    
 菲力克斯 亚修 希尔凡 梅尔赛德司 雅尼特 英谷莉特
 
@@ -32,7 +37,7 @@
 [![Ingrid](character-images/Ingrid.png "英谷莉特 Ingrid")](#英谷莉特)
 
 
-金鹿    
+金鹿學級    
 库罗德 洛廉兹    
 拉斐尔 伊古纳兹 莉丝缇亚 玛莉安奴 希尔妲 雷欧妮
 
@@ -49,25 +54,42 @@
 [![Leonie](character-images/Leonie.png "雷欧妮 Leonie")](#雷欧妮)
  
 
-赛罗司圣教会    
+賽羅司聖教會/士官學校       
 蕾雅 西提司 芙莲
 汉尼曼 玛努艾拉 锥里尔
-阿罗伊斯 萨米亚 吉尔伯特 卡多莉奴
-杰拉尔特
+ 
 
-[![赛罗司圣教会](img/sothis.png "赛罗司圣教会")](#蕾雅)
+[![赛罗司圣教会](character-images/group01_emblem.png "赛罗司圣教会")](#蕾雅)
 [![Rhea](character-images/Rhea.png "蕾雅 Rhea")](#蕾雅)
 [![Seteth](character-images/Seteth.png "西提司 Seteth")](#西提司)
 [![Flayn](character-images/Flayn.png "芙莲 Flayn")](#芙莲)
 [![Hanneman](character-images/Hanneman.png "汉尼曼 Hanneman")](#汉尼曼)
 [![Manuela](character-images/Manuela.png "玛努艾拉 Manuela")](#玛努艾拉)
 [![Cyril](character-images/Cyril.png "锥里尔 Cyril")](#锥里尔)
-[![Alois](character-images/Alois.png "阿罗伊斯 Alois")](#阿罗伊斯)
-[![Shamir](character-images/Shamir.png "萨米亚 Shamir")](#萨米亚)
-[![Gilbert](character-images/Gilbert.png "吉尔伯特 Gilbert")](#吉尔伯特)
-[![Catherine](character-images/Catherine.png "卡多莉奴 Catherine")](#卡多莉奴)
+[![伊艾里扎](character-images/伊艾里扎.png "伊艾里扎")](#伊艾里扎)
+[![托馬修](character-images/托馬修.png "托馬修")](#托馬修)
+
+
+賽羅司騎士團
+杰拉尔特 卡多莉奴 阿罗伊斯 吉尔伯特 萨米亚
+
+[![赛罗司圣教会](character-images/group02_emblem.png "賽羅司騎士團")](#萨米亚)
 [![Jeralt](character-images/Jeralt.png "杰拉尔特 Jeralt")](#杰拉尔特)
- 
+[![Catherine](character-images/Catherine.png "卡多莉奴 Catherine")](#卡多莉奴)
+[![Alois](character-images/Alois.png "阿罗伊斯 Alois")](#阿罗伊斯)
+[![Gilbert](character-images/Gilbert.png "吉尔伯特 Gilbert")](#吉尔伯特)
+[![Shamir](character-images/Shamir.png "萨米亚 Shamir")](#萨米亚)
+
+其他勢力    
+炎帝 死神騎士  クロニエ  ソロン タレス
+
+[![炎帝](character-images/炎帝.png "炎帝")](#炎帝)
+[![死神騎士](character-images/死神騎士.png "死神騎士")](#死神騎士)
+[![クロニエ](character-images/クロニエ.png "クロニエ")](#クロニエ)
+[![ソロン](character-images/ソロン.png "ソロン")](#ソロン)
+[![タレス](character-images/タレス.png "タレス")](#タレス)
+
+
 # 艾黛尔贾特
 ![Edelgard](character-images/Edelgard.png "艾黛尔贾特 Edelgard")    
 

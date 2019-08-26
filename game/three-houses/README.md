@@ -15,6 +15,7 @@
 
 
 - [Fire Emblem: Three Houses - Wikipedia](https://en.wikipedia.org/wiki/Fire_Emblem:_Three_Houses)
+- [Fire Emblem: Three Houses | Fire Emblem Wiki | FANDOM powered by Wikia](https://fireemblem.fandom.com/wiki/Fire_Emblem:_Three_Houses)
 - [火焰纹章 风花雪月 攻略集 - 游戏时光vgtime](http://www.vgtime.com/game/strategy/10778.jhtml)
 - [《火焰纹章风花雪月》全人物攻略汇总 茶会、信件答案一览-游民星空 GamerSky.com](https://www.gamersky.com/handbook/201908/1209337.shtml)
 
