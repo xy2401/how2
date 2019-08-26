@@ -100,12 +100,12 @@ infos.forEach((info, index) => {
     //擅长 ⯭ 🠝 不是所有浏览器都可以正常显示 （安卓手机
     let p = info[0].filter(p => p && p.length > 0);
     if (p.length > 0) {
-        temp += '**⬆** : ' + p.join(' , ') + "    \n";
+        temp += '**▲** : ' + p.join(' , ') + "    \n";
     }
     //不擅长 ⯯ 🠟
     p = info[1].filter(p => p && p.length > 0);
     if (p.length > 0) {
-        temp += '**⬇** : ' + p.join(' , ') + "    \n";
+        temp += '**▼** : ' + p.join(' , ') + "    \n";
     }
     //才能
     p = info[2].filter(p => p && p.length > 0);
