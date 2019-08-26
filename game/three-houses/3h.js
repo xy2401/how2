@@ -37,7 +37,7 @@ document.querySelectorAll('.table2').forEach(t => {
             k = 5;
         } else if ('喜欢的东西' == tds[0].innerHTML.trim()) {
             i = 6;
-            j = 4;
+            j = 7;
             k = 8;
         } else if ('喜好茶叶' == tds[0].innerHTML.trim() && tds[0].colSpan == 1) {
             //西提司 锥里尔 阿罗伊斯 吉尔伯特 卡多莉奴
@@ -97,15 +97,15 @@ infos.forEach((info, index) => {
 
 
     let temp = '';
-    //擅长
+    //擅长 ⯭ 不是所有浏览器都可以正常显示 （安卓手机
     let p = info[0].filter(p => p && p.length > 0);
     if (p.length > 0) {
-        temp += '**⯭** : ' + p.join(' , ') + "    \n";
+        temp += '**🠝** : ' + p.join(' , ') + "    \n";
     }
-    //不擅长
+    //不擅长 ⯯ 
     p = info[1].filter(p => p && p.length > 0);
     if (p.length > 0) {
-        temp += '**⯯** : ' + p.join(' , ') + "    \n";
+        temp += '**🠟** : ' + p.join(' , ') + "    \n";
     }
     //才能
     p = info[2].filter(p => p && p.length > 0);
@@ -137,6 +137,11 @@ infos.forEach((info, index) => {
         result += "## 信件答案    \n";
         result += p.join('    \n');
     }
+
+    //重新输出一下 斜体名字  *斜体*
+    result += `\n\n*${names[index]} ${namesEN[index]}*`;
+
+   
 
     result += "\n\n\n\n";
 });
